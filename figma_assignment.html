@@ -1,0 +1,367 @@
+<html>
+
+	<head>
+		
+		<style>
+		
+			*{
+			  margin: auto;
+			  padding: 0px;
+
+			}
+			.main{
+				background:black;
+				width:100%;
+				height:100%;
+				position:relative;
+			}
+			
+			.sub_main{
+				background:white;
+				width:420;
+				height:630;
+				border-radius : 20px;
+				position:fixed;
+				left:750px;
+				top:170px;
+			}
+			
+			.orange{
+				background:darkorange;
+				position:absolute;
+				width:420;
+				height:260;
+				border-radius:20px 20px 0px 0px;
+				
+			
+			}
+			
+			.orange .h1{
+				position:absolute;
+				top:20px;
+				left:50px;
+				font-family:calibri;
+			}
+			
+			.orange .h2{
+				position:absolute;
+				top:70px;
+				left:50px;
+				font-family:calibri;
+			
+			}
+			
+			.orange .p{
+				position:absolute;
+				top:110px;
+				left:50px;
+				font-family:calibri;
+			
+			}
+			
+			.faq{
+				background:white;
+				position:absolute;
+				width:400;
+				height:400;
+				border-radius:10px;
+				top:200px;
+				left:10px;
+				border:1px solid lightgray;
+			
+			}
+			
+			.que{
+				position:absolute;
+				top:60px;
+				left:20px;
+				font-family:calibri;
+				font-weight:bold;
+			}
+			
+			.a{
+				background:white;
+				width:320;
+				height:40;
+				border:1px solid lightgray;
+				border-radius:10px;
+				top:100px;
+				left:25px;
+				position:absolute;
+			}
+			
+			.b
+			{
+				background:white;
+				width:320;
+				height:40;
+				border:1px solid lightgray;
+				border-radius:10px;
+				top:150px;
+				left:25px;
+				position:absolute;
+			}
+			
+			.c{
+				background:white;
+				width:320;
+				height:40;
+				border:1px solid lightgray;
+				border-radius:10px;
+				top:200px;
+				left:25px;
+				position:absolute;
+			}
+			
+			.d{
+				background:white;
+				width:320;
+				height:40;
+				border:1px solid lightgray;
+				border-radius:10px;
+				top:250px;
+				left:25px;
+				position:absolute;
+			}
+			
+			.e{
+				
+				width:270;
+				height:40;
+				border:1px solid lightgray;
+				border-radius:50px;
+				top:325px;
+				left:50px;
+				position:absolute;
+				box-shadow:0px 0px 1px 0px;
+			}
+			
+			.common{
+				font-family:calibri;
+				font-size:15;
+				position:absolute;
+				top:10px;
+				left:30px;
+			
+			}
+			
+			.conv{
+				font-family:calibri;
+				position:absolute;
+				top:10px;
+				left:75px;
+				font-weight:bold;
+			
+			}
+			
+			.dot{
+				background:darkorange;
+				position:absolute;
+				width:8;
+				height:8;
+				border-radius:50%;
+				top:15px;
+				left:10px;
+			
+			}
+			
+			.robot{
+				position:absolute;
+				background:darkorange;
+				width:70;
+				height:70;
+				border-radius:50%;
+				top:-30px;
+				left:25px;
+				box-shadow:0px 0px 1px 0px;
+			
+			}
+			.a1{
+				background:white;
+				position:absolute;
+				width:30;
+				height:30;
+				border-radius:5px;
+				top:20px;
+				left:20px;
+				
+			
+			}
+			.a2{
+				background:white;
+				position:absolute;
+				width:5;
+				height:15;
+				border-radius:5px;
+				top:25px;
+				left:12px;
+
+			
+			}
+			.a3{
+				background:white;
+				position:absolute;
+				width:5;
+				height:15;
+				border-radius:5px;
+				top:25px;
+				left:53px;
+
+			
+			}			
+			.a4{
+				background:white;
+				position:absolute;
+				width:5;
+				height:10;
+				border-radius:5px;
+				top:12px;
+				left:32px;
+
+			
+			}
+			.b1{
+				background:darkorange;
+				position:absolute;
+				width:5;
+				height:5;
+				border-radius:50%;
+				top:8px;
+				left:7px;
+
+			
+			}
+			.b2{
+				background:darkorange;
+				position:absolute;
+				width:5;
+				height:5;
+				border-radius:50%;
+				top:8px;
+				left:18px;
+
+			
+			}			
+			.b3{
+				background:darkorange;
+				position:absolute;
+				width:4;
+				height:2;
+				border-radius:1px;
+				top:20px;
+				left:7px;
+
+			
+			}
+			.b4{
+				background:darkorange;
+				position:absolute;
+				width:4;
+				height:2;
+				border-radius:1px;
+				top:20px;
+				left:14px;
+
+			
+			}
+			.b5{
+				background:darkorange;
+				position:absolute;
+				width:4;
+				height:2;
+				border-radius:1px;
+				top:20px;
+				left:21px;
+
+			
+			}
+			.q{
+				font-family:calibri;
+				font-weight:bold;
+				font-size:20;
+				color:darkorange;
+				position:absolute;
+				top:55px;
+				left:230px;
+				
+			
+			}
+		</style>
+		
+		
+	</head>
+
+	<body>
+	
+		<div class="main">
+				<div class="Sub_main">
+				
+					<div class="orange">
+						<h1 class="h1", style ="color:white">IRIS</h1>
+						<h2 class="h2", style ="color:white">Hello</h2>
+						<p class="p", style ="color:white">I am IRIS, a Virtual Asssistant<br>How may I help you ? </p>
+					</div>
+					
+					<div class="white">
+					
+					</div>
+					
+					
+					<div class="faq">
+						<div class="robot">
+						
+							<div class="a1">
+								<div class="b1"></div>
+								<div class="b2"></div>
+								<div class="b3"></div>
+								<div class="b4"></div>
+								<div class="b5"></div>
+							</div>
+							<div class="a2">
+							
+							</div>
+							<div class="a3">
+							
+							</div>
+							<div class="a4">
+							
+							</div>
+						
+						</div>
+					
+						<p class="que">Frequently Asked Questions  </p>
+						
+						<div class="q">?</div>
+						
+						<div class="a", >
+							<div class="dot"></div>
+							<p class="common">Can I redeem my FB before the original term?</p>
+						</div>
+						
+						<div class="b" >
+							<div class="dot"></div>
+							<p class="common">How do I pay my Credit card bill?</p>
+						</div>
+						
+						<div class="c" >
+							<div class="dot"></div>
+							<p class="common">How can i get my Account Statement?</p>
+						</div>
+
+						<div class="d" >
+							<div class="dot"></div>
+							<p class="common">What is the tenture of Fixed Deposit?</p>
+						</div>
+						
+						<div class="e">
+							<p class="conv">Start a New Conversation</p>
+						</div>
+					
+					</div>
+					
+				</div>
+		</div>
+		
+	</body>
+
+</html>
